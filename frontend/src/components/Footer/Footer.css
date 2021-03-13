@@ -1,0 +1,188 @@
+/* BACKGROUND COLOR AND TOP MARGIN  */
+.footer{
+    background-color: black;
+    color:white;
+    margin-top: 30px;
+}
+
+/* FOOTER HEIGHT */
+.footer .row {
+    height:200px;
+}
+
+/* FOOTER CONTENT PADDING AND ALIGNMENT */
+.footer .row .footerContent{
+    padding:0;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/* FOOTER CENTRE CONTENT STYLING */
+.footer .row .footerCenter{
+    text-align: center;
+
+}
+
+/* FOOTER CENTER SOCIALS STYLING */
+.footer .row .footerSocials{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 20px;
+    margin:auto;
+}
+
+
+.footer .footerContent h5,
+.footer .footerContent .form-label {
+    margin-bottom:15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.footer .footerContent .form-label{
+    margin-bottom:10px;
+}
+/* SOCIALS ICON STYLING  */
+/* .footer #footerEmail{
+    padding-top: 35px;
+} */
+.footer .row .footerSocials i{
+    height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer .row .col-6{
+    text-align: center;
+}
+
+/* PARAGRAPH STYLING */
+.footer .footerContent p{
+    margin: 0;
+}
+
+/* EMAIL SIGNUP STYLING */
+
+.footer .footerContent .form-control,
+.footer .footerContent .btn {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+.footer .footerContent .btn{
+    margin-top:10px;
+    background-color: black;
+    color: white;
+    border:1px solid white;
+    text-align: center;
+}
+
+.footer .footerContent p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+/* DIV SIZING */
+
+.footer .row .footerLogo {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 80px;
+    margin:auto;
+    padding: 0;
+    min-width: 50%;
+}
+
+
+.footer .footerLogo img{
+    height:80px;
+}
+
+.footer #footerLogoImg {
+    display: block;
+    margin: auto;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.footer hr {
+    display:none;
+}
+
+.footer #footerContact h5,
+.footer #footerAddress h5{
+    margin-bottom: 20px;
+} 
+
+
+/* HOVER EFFECT */
+.hvr-icon-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-icon-grow .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-icon-grow:hover .hvr-icon, .hvr-icon-grow:focus .hvr-icon, .hvr-icon-grow:active .hvr-icon {
+    -webkit-transform: scale(1.5) translateZ(0);
+    transform: scale(1.5) translateZ(0);
+  }
+
+@media (max-width:768px) {
+
+    .container-fluid{
+        padding-top: 20px;
+    }
+    .footer .row .footerContent{
+        padding-top:10px;
+        padding-bottom:10px;
+        height:80%;
+    }
+    .footer #footerLogoImg {
+        height: 80px;
+    }
+    .col-md-5 {
+        height: 125px;
+    }
+    .order-md-3{
+        height: 180px;
+    }
+
+    .footer .row{
+        height: 140px;
+    }
+
+    .footer hr {
+        display:block;
+        background-color: white;
+        width:75%;
+    }
+
+    .footer .footerContent .form-control,
+    .footer .footerContent .btn {
+        width: 80%;
+    }
+
+
+}

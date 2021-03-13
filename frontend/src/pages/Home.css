@@ -1,0 +1,78 @@
+html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.homePage .container-fluid {
+    padding: 0;
+    background-color: white;
+}
+
+/* MAIN CONTENT STYLING */
+
+.homePage .mainContent {
+    margin-top: 54.73px;
+    height: 400px;
+    background-color: white;
+}
+
+#shoreThing {
+    width:50%;
+}
+
+
+
+.homePage .container-fluid .row{
+    margin-bottom: 50px;
+    margin-right:0;
+}
+.homePage .container-fluid .final{
+    margin-bottom: 0;
+    margin-right:0;
+}
+
+.homePage .container-fluid .sectionDesc{
+    padding:0 30px;
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.homePage .container-fluid .final{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.homePage .container-fluid .sectionImg{
+    padding:0;
+}
+
+/* SECTION DESCRIPTION STYLING */
+.homePage .container-fluid .sectionDesc h1{
+    font-family: 'Quicksand', sans-serif;
+}
+.homePage .container-fluid .sectionDesc p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homePage .container-fluid p {
+    display: flex;
+
+    vertical-align: center;
+}
+
+
+.homePage .parallaxSize{
+    height: 400px;
+    position: relative;
+}
+
+@media (max-width:768px) {
+    .homePage .parallaxSize {
+        height:150px;
+    }
+    .homePage .react-parallax img{
+        height: 450px!important;
+    }
+}
