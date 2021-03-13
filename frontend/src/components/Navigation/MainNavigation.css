@@ -1,0 +1,102 @@
+main {
+    padding-top: 54.73px;
+}
+
+.navbar {
+    margin: 0;
+    padding:0;
+    background-color: black!important;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar .navbar-brand{
+    margin:0;
+    padding:0;
+}
+
+.navbar img {
+    width: 3.5rem;
+    margin-left: 10px;
+    padding: 0.3rem;
+}
+.navbar .nav-link{
+    padding: 0.25rem 1rem;
+}
+
+.navbar .collapse,
+.navbar .collapsing{
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.5rem;
+    margin-left:1rem;
+    text-transform: uppercase;
+}
+
+.navbar button{
+    border-color:white!important;
+    margin-right: 20px;
+}
+.navbar .navbar-collapse .mainItem{
+    color:white;
+    font-size: 1rem;
+    margin-left:20px;
+}
+/* REMOVE HOVER TEXT DECORATION */
+.navbar .navbar-collapse .mainItem:hover{
+    text-decoration: none;
+    color:rgb(187, 187, 187);
+}
+.navbar .mainItem{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/* AUTH BUTTONS STYLING */
+.navbar .authBtns {
+    margin: 0.5rem 1rem;
+}
+.navbar .authBtns .btn{
+    background-color: black;
+}
+
+/* STYLING FOR MAIN ITEMS WHEN SHOWN IN COLLAPSED MENU */
+.navbar .show .mainItem,
+.navbar .collapsing .mainItem{
+    padding-left: 20px;
+    margin: 0.4rem 0;
+}
+
+/* STYLING FOR AUTH BUTTONS WHEN SHOWN IN COLLAPSED MENU */
+.navbar .show .authBtns,
+.navbar .collapsing .authBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.navbar .show .authBtns .nav-link,
+.navbar .collapsing .authBtns .nav-link{
+ width:33%;
+ padding-bottom: .7rem;
+}
+
+.navbar .show .authBtns .nav-link .btn,
+.navbar .collapsing .authBtns .nav-link .btn{
+ width:100%;
+}
+
+.navbar .collapsed .authBtns .nav-link .btn{
+ width:100px;
+}
+
+/* STYLING HOVER EFFECTS MAIN ITEMS */
+
+
+/* CUSTOM TOGGLER STYLING */
+.navbar-toggler {
+    border-radius: 0;
+    border: .15rem solid white;
+    padding: .1rem .15rem;
+}
+

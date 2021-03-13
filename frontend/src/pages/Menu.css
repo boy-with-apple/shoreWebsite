@@ -1,0 +1,20 @@
+.menuPage{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.menuPage .menu img{
+    max-width: 50%;
+}
+
+@media (max-width:768px) {
+    .menuPage{
+
+    }
+    .menuPage .menu img{
+        min-width:100%;
+    }
+}
