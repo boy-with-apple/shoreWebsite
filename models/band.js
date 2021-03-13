@@ -18,5 +18,4 @@ const bandSchema = new mongoose.Schema({
         required: true
     }
 })
-//export
 module.exports = mongoose.model('Band', bandSchema)
